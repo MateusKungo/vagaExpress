@@ -4,7 +4,7 @@ export default function JobsLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="bg-amber-200">
+    <div className="bg-white min-h-screen py-10">
       {children}
     </div>
   );
