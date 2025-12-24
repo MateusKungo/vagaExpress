@@ -9,9 +9,8 @@ export default function Navbar() {
 
             <ul className="flex flex-row gap-2 text-gray-700">
                 <Link href="/" className={cn(buttonVariants({variant:"link"}),"ml-6")}>Home</Link>
-                <Link href="/sobre" className={cn(buttonVariants({variant:"link"}),"ml-6")}>Sobre</Link>
                 <Link href="/vagas" className={cn(buttonVariants({variant:"link"}),"ml-6")}>New Job Openings</Link>
-                <Link href="vagas/new" className={cn(buttonVariants({variant:"link"}),"ml-6")}>add Jobs</Link>
+                <Link href="/sobre" className={cn(buttonVariants({variant:"link"}),"ml-6")}>about</Link>
                 <Link href="/contact" className={cn(buttonVariants({variant:"link"}),"ml-6")}>Contact</Link>
                 
             </ul>
